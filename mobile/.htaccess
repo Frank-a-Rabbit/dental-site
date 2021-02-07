@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !on
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+AddHandler application/x-httpd-php .htm
+AddHandler application/x-httpd-php .html
+AddHandler application/x-httpd-php .shtm
+AddHandler application/x-httpd-php .shtml
+AddHandler server-parsed .htm
+AddHandler server-parsed .html
+AddHandler server-parsed .shtm
+AddHandler server-parsed .shtml
+Options +Includes
+XBitHack on

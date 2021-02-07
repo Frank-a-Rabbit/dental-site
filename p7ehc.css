@@ -1,0 +1,145 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	margin: 0px;
+	margin-bottom: 40px;
+}
+#layout-wrapper {
+	margin: 0px auto;
+	width: 800px;
+}
+#masthead {
+	background-image: url(image/HDlogoheader.jpg);
+	height: 142px;
+}
+h1 {
+	color: #00356a;
+	margin: 0px;
+	font-size: 1.25em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+h2 {
+	color: #00356a;
+	font-size: 1.15em;
+	margin: 0px;
+}
+h3 {
+	color: #00356a;
+	font-size: 1.05em;
+	margin: 0px;
+}
+#columns-wrapper {
+	overflow: hidden;
+	border-top: none;
+}
+#column-1 {
+	float: left;
+	width: 140px;
+	padding: 10px;
+	color: #FFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: .75em;
+	background-color: #00467f;
+	box-shadow: 0px 0px 30px #00467f;
+}
+#column-2 {
+	float: left;
+	width: 580px;
+	padding: 40px 20px 10px 40px;
+	font-size: .8em;
+	color: #4a4a4a;
+}
+#footer {
+	color: #999;
+	padding: 15px;
+	font-size: .7em;
+}
+#footercontent {
+	padding: 20px;
+	font-size: .85em;
+}
+#pmm_wrapper {
+	width: 140px;
+}
+/* The following rule is provided so that Dreamweaver will allow you to assign the EHC class visually in either Design or Code Views.
+If you need more than 5 sets of column structures simply add additional selector names ending with "-f" and so on*/
+.p7ehc-a, .p7ehc-b, .p7ehc-c, .p7ehc-d, .p7ehc-e {font-size: inherit;}
+a img {
+	border: 0;
+	}
+a:link { 
+	color: #00467f; 
+}
+a:visited { color: #4478c5;
+	text-decoration: none; 
+}
+.imgleft1 {
+	float: left;
+	clear: right;
+	margin-top: 5px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.imgright1 {
+	clear: left;
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.imgright {
+	clear: left;
+	float: right;
+	padding-right: 20px;
+}
+.img1 {
+	padding-right: 45px;
+	padding-left: 45px;
+}
+.img2 {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.img3 {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.imgCenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.imgCenter1 {
+	display: block;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.imgbox {
+  margin:6px;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+  }
+div.imgbox img {
+  display:inline;
+  margin:3px;
+  border:1px solid #ffffff;
+  }
+div.desc {
+  text-align:center;
+  font-weight:normal;
+  margin:2px;
+  }
+.h1 { font-size: .95em;
+	color: #00356a;
+	font-weight: bold;
+}
+.h2 { font-size: 1.15em;
+	color: #00356a;
+	font-weight: bold;
+}

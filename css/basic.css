@@ -1,0 +1,20 @@
+body { min-width: 800px; }
+p { color: #4a4a4a; font-size: 1em; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td { }
+a:link { color: #00467f; font-size: inherit; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none; }
+a:visited { color: #4478c5; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none; }
+a:hover { }
+a:active { }
+.h1 { color: #00356a; font-size: 1em; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
+.h2 { color: #00356a; font-size: 1.25em; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
+.imgCenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.imgCenter1 {
+	display: block;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
