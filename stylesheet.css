@@ -1,7 +1,7 @@
 body {
 	/* font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif; */
 	/* background-image:url(images/BG170329.jpg); */
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	line-height: 26px;
 	background-repeat:no-repeat;
@@ -19,7 +19,7 @@ ul, ol, dl { /* Due to variations between browsers, it's best practices to zero 
 }
 h1
 {
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 28px;
 	font-weight: normal;
 	color: #163F53;
@@ -38,13 +38,13 @@ h3, h4, h5, h6, p {
 	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
 }
 h2 {
-	font-family:Verdana, Geneva, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size:16px;
 	font-weight:normal;
 	color:#56A2D6;
 }
 
-h6 {font-family:Verdana, Geneva, sans-serif;
+h6 {font-family: 'Roboto', sans-serif;
 font-size:14px;
 font-weight:normal;
 color:#333333}
@@ -53,7 +53,7 @@ a img { /* this selector removes the default blue border displayed in some brows
 }
 .page-title 
 {
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 28px;
 	font-weight: normal;
 	color: #133D53;
@@ -114,7 +114,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 .content {
 	padding: 0 15px;
 	width: auto;
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size:14px;
 	color:#000;
 }
@@ -224,7 +224,7 @@ width: 160px; /*width of menu (include side paddings of LI A*/
 	display: none; /*collapse all sub menus to begin with*/
 	box-shadow: 3px 3px 8px #818181; /*shadow for CSS3 capable browsers.*/
 	;
-	font-family: "Century Gothic", "Berlin Sans FB Demi", Arial;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
 	font-style: normal;
 	font-weight: normal;

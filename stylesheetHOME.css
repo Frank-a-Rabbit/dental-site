@@ -1,6 +1,6 @@
 body {
 	/* font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif; */
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background-image:url(images/BG.jpg);
 	background-repeat:no-repeat;
 	background-position:center top;
@@ -15,15 +15,16 @@ ul, ol, dl { /* Due to variations between browsers, it's best practices to zero 
 	padding: 0;
 	margin: 0;
 }
-h1, h3, h4, h5, h6, p {
-	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+h1, h3, h4, h5, h6 {
+	margin-top: 0;
+	font-family: 'Roboto', sans-serif; /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
 }
-h2 {font-family:Verdana, Geneva, sans-serif;
+h2 {font-family: 'Roboto', sans-serif;
 font-size:16px;
 font-weight:normal;
 color:#AFDFF3}
 
-h6 {font-family:Verdana, Geneva, sans-serif;
+h6 {font-family: 'Roboto', sans-serif;
 font-size:14px;
 font-weight:normal;
 color:#333333}
@@ -32,7 +33,7 @@ a img { /* this selector removes the default blue border displayed in some brows
 }
 .page-title 
 {
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 28px;
 	font-weight: normal;
 	color: #133D53;
@@ -113,7 +114,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	width: auto;
 	max-width: 1400px;
 	margin: auto;
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size:14px;
 	color:#000;
 }
@@ -158,18 +159,16 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 }
 .header-slideshow .main-img .alert {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 65%;
+	bottom: 0;
+	left: 0;
+	width: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background: rgba(255,255,255,0.85);
 	border: 4px solid #0c6ccc;
-	border-radius: 90px;
-	padding: 25px 50px;
+	padding: 25px 10px;
 }
 .header-slideshow .main-img .alert h2 {
 	color: #0c6ccc;
@@ -186,7 +185,6 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 @media (max-width: 640px) {
 	.header-slideshow .main-img .alert {
 		padding: 5px 15px;
-		width: 85%;
 	}
 	.header-slideshow .main-img .alert h2 {
 		font-size: 20px;
@@ -245,6 +243,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 .new-header .mobile-nav ul .mobile-li .inner {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 .new-header .mobile-nav ul .mobile-li .inner i {
 	margin-left: 25px;
@@ -680,8 +679,8 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	margin-bottom: 30px;
 }
 .grid .grid-item .img {
-	width: 250px;
-	height: 250px;
+	width: 150px;
+	height: 150px;
 	border-radius: 100%;
 	border: 3px solid #56a2d6;
 	margin-bottom: 15px;
@@ -846,7 +845,7 @@ width: 160px; /*width of menu (include side paddings of LI A*/
 	display: none; /*collapse all sub menus to begin with*/
 	box-shadow: 3px 3px 8px #818181; /*shadow for CSS3 capable browsers.*/
 	;
-	font-family: "Century Gothic", "Berlin Sans FB Demi", Arial;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: normal;
